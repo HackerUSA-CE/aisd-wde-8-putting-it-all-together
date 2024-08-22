@@ -70,6 +70,12 @@ Now we will add a CDN link to include Bootstrap for styling our web page.
   crossorigin="anonymous" />
 ```
 
+- [ ] Copy and paste the script tags above the closing body today (`</body>`). Your HTML content must go above the script tags. We will dive into what these do in the future.
+```html
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+```
+
 **Explanation:**
 
 - By adding the CDN link, we included Bootstrap's CSS to style our web page with its predefined classes and components.
