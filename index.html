@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+       content="width=device-width, initial-scale=1.0">
+  <title>Animal Shelter</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet"
+       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet"
+       href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand"
+         href="#">Animal Shelter</a>
+    <button class="navbar-toggler"
+         type="button"
+         data-toggle="collapse"
+         data-target="#navbarNav"
+         aria-controls="navbarNav"
+         aria-expanded="false"
+         aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"
+         id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link"
+               href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+               href="#animals">Our Animals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+               href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <div class="jumbotron text-center">
+      <h1>Welcome to Our Animal Shelter</h1>
+      <p>Your new best friend is waiting for you!</p>
+    </div>
+
+    <!-- Animal Cards and Contact Form Grid -->
+    <div class="row"
+         id="animals">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://placekitten.com/400/300"
+               class="card-img-top"
+               alt="Cat">
+          <div class="card-body">
+            <h5 class="card-title">Whiskers</h5>
+            <p class="card-text">A playful kitten looking for a loving home.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://placedog.net/400/300"
+               class="card-img-top"
+               alt="Dog">
+          <div class="card-body">
+            <h5 class="card-title">Buddy</h5>
+            <p class="card-text">A loyal companion who loves to play fetch.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"
+           id="contact-container">
+        <div id="contact">
+          <h4>Contact Us</h4>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text"
+                   class="form-control"
+                   id="name"
+                   placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email"
+                   class="form-control"
+                   id="email"
+                   placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control"
+                   id="message"
+                   rows="3"
+                   placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit"
+                 class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Animal Shelter. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
