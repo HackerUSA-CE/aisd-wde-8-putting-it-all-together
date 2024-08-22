@@ -27,7 +27,6 @@ animalShelter/
 ## 2. **Start with an HTML Boilerplate**
 Now that your files are set up, begin by adding the basic HTML boilerplate.
 
-We will also include the Bootstrap CDN links to streamline styling and layout.
 
   - [ ] Ask AI to help you prepare an HTML boilerplate. Copy and paste that code into your `index.html` file.
 
