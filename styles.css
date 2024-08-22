@@ -11,35 +11,31 @@ body {
 
 .navbar {
     margin-bottom: 20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 0.93rem; /* Smaller text size to match reduced depth */
+    font-size: 0.93rem; 
 }
 
-.jumbotron {
+.header-container {
     background-color: #007bff;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 0.93rem; /* Smaller text size to match reduced depth */
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .card {
     border: 1px solid #ddd;
     transition: transform 0.2s ease-in-out;
-    max-width: 280px; /* Smaller card size */
+    max-width: 280px; 
     margin: 0 auto; /* Center the cards */
 }
 
 .card img {
-    max-height: 50%; /* Further reduce the height to 50% */
-    width: 100%; /* Ensure the image fits the width of the card */
+    max-height: 50%; 
+    width: 100%; 
     object-fit: cover;
 }
 
 .card-title {
     color: #007bff;
-    font-size: 0.93rem; /* Smaller font size for titles */
+    font-size: 0.93rem; 
 }
 
 #animals .col-md-4,
@@ -49,7 +45,7 @@ body {
 }
 
 #contact-container {
-    max-width: 280px; /* Match the card size */
+    max-width: 280px; 
     margin: 0 auto; /* Center the form */
 }
 
@@ -64,7 +60,7 @@ body {
 #contact h4 {
     color: #007bff;
     text-align: center; /* Center the form heading */
-    font-size: 0.93rem; /* Slightly smaller heading */
+    font-size: 0.93rem; 
     margin-bottom: 8px;
 }
 
@@ -72,13 +68,13 @@ body {
     height: auto;
     padding: 4px;
     margin-bottom: 8px;
-    font-size: 0.93rem; /* Smaller input text size */
+    font-size: 0.93rem;
 }
 
 .btn-primary {
     background-color: #007bff;
     border-color: #007bff;
-    font-size: 0.93rem; /* Smaller button text size */
+    font-size: 0.93rem; 
 }
 
 .btn-primary:hover {
@@ -98,5 +94,5 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 0.93rem; /* Smaller footer text size */
+    font-size: 0.93rem; 
 }
