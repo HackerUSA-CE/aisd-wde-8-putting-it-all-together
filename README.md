@@ -70,6 +70,12 @@ Now we will add a CDN link to include Bootstrap for styling our web page.
   crossorigin="anonymous" />
 ```
 
+- [ ] Copy and paste the script tags above the closing body today (`</body>`). Your HTML content must go above the script tags. We will dive into what these do in the future.
+```html
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+```
+
 **Explanation:**
 
 - By adding the CDN link, we included Bootstrap's CSS to style our web page with its predefined classes and components.
@@ -78,7 +84,9 @@ Now we will add a CDN link to include Bootstrap for styling our web page.
 
 The objective is to adjust the <body> tag to apply a light background and dark text across the entire page using Bootstrap classes.
 
-- [ ] **Ask AI:**"What changes should I make to the `<body>` tag to apply a light background with dark text to the entire page using Bootstrap?"
+**Ask AI:**
+
+- [ ] "What changes should I make to the `<body>` tag to apply a light background with dark text to the entire page using Bootstrap?"
 - [ ] Replace the existing code in the `index.html` file with the updated version.
 
 **Explanation:**
@@ -89,11 +97,13 @@ The objective is to adjust the <body> tag to apply a light background and dark t
 
 Let's create a responsive Bootstrap navbar with a brand on the left and navigation links on the right, all styled with a dark theme.
 
-- [ ] **Ask AI:**"With the Bootstrap CDN link already in place, how do I create a responsive navbar that expands on large screens.
-- [ ] **Ask AI:**"How do I add the 'Animal Shelter' branding text on the left side of the navbar?"
-- [ ] **Ask AI:**"How do I add the navigation links 'Home,' 'Our Animals,' and 'Contact Us' to the right side of the navbar?"
-- [ ] **Ask AI:**"With the CDN link already in place, how do I style the navbar with a dark background and light text using Bootstrap?"
-- [ ] **Ask AI:**"How do I wrap the entire navbar content inside a fluid container with padding on the left and right for consistent spacing?"
+**Ask AI:**
+
+- [ ] "How do I create a responsive navbar that expands on large screens.
+- [ ] "How do I add the 'Animal Shelter' branding text on the left side of the navbar?"
+- [ ] "How do I add the navigation links 'Home,' 'Our Animals,' and 'Contact Us' to the right side of the navbar?"
+- [ ] "How do I style the navbar with a dark background and light text using Bootstrap?"
+- [ ] "How do I wrap the entire navbar content inside a fluid container with padding on the left and right for consistent spacing?"
 - [ ] Place the supplied navbar code inside the `<body>` tags of your HTML file.
 - [ ] Open the `index.html` file in your browser to see the results.
 - [ ] Ask AI for help if you need to tweak or adjust anything in the navbar.
@@ -106,10 +116,12 @@ Let's create a responsive Bootstrap navbar with a brand on the left and navigati
 
 We are building the main content section of the webpage, focusing on creating a visually appealing and responsive layout using Bootstrap.
 
-- [ ] **Ask AI:**"How do I create a main content container that includes a centered heading followed by a row with two cards and a form using Bootstrap?"
-- [ ] **Ask AI:**"How do I add the centered heading, 'Welcome to Our Animal Shelter,' using Bootstrap?"
-- [ ] **Ask AI:**"How do I add a subheading, 'Your new best friend is waiting for you!' centered below the main heading in a Bootstrap column?"
-- [ ] **Ask AI:**"How do I style the main heading and subheading section with a blue background, white text, and rounded corners using Bootstrap classes?"
+**Ask AI:**
+
+- [ ] "How do I create a main content container that includes a centered heading followed by a row with two cards and a form using Bootstrap?"
+- [ ] "How do I add the centered heading, 'Welcome to Our Animal Shelter,' using Bootstrap?"
+- [ ] "How do I add a subheading, 'Your new best friend is waiting for you!' centered below the main heading in a Bootstrap column?"
+- [ ] "How do I style the main heading and subheading section with a blue background, white text, and rounded corners using Bootstrap classes?"
 - [ ] Place the supplied code inside the `<body>` tags after the `nav` code of your HTML file.
 - [ ] Open the `index.html` file in your browser to see the results.
 - [ ] Ask AI for help if you need to tweak or adjust anything in the navbar.
@@ -122,11 +134,13 @@ We are building the main content section of the webpage, focusing on creating a 
 
 Now we are building a responsive layout that displays two animal cards and a contact form side by side within a Bootstrap grid.
 
-- [ ] **Ask AI:**"How do I create a Bootstrap grid row that will hold three equal columns after the main section?"
-- [ ] **Ask AI:**"How do I add an animal card to the first column, with an image, title 'Whiskers,' and description, using the image link 'https://placekitten.com/400/300'?"
-- [ ] **Ask AI:**"How do I add an animal card to the second column, with an image, title 'Buddy,' and description, using image link 'https://placedog.net/400/300'?"
-- [ ] **Ask AI:**"How do I create a contact form in the third column of the row, including fields for 'Name,' 'Email address,' and 'Message,' all styled with Bootstrap?"
-- [ ] **Ask AI:**"How do I ensure the two animal cards and the contact form are aligned in a single row of three columns using Bootstrap’s grid system?"
+**Ask AI:**
+
+- [ ] "How do I create a Bootstrap grid row that will hold three equal columns after the main section?"
+- [ ] "How do I add an animal card to the first column, with an image, title 'Whiskers,' and description, using the image link 'https://placekitten.com/400/300'?"
+- [ ] "How do I add an animal card to the second column, with an image, title 'Buddy,' and description, using image link 'https://placedog.net/400/300'?"
+- [ ] "How do I create a contact form in the third column of the row, including fields for 'Name,' 'Email address,' and 'Message,' all styled with Bootstrap?"
+- [ ] "How do I ensure the two animal cards and the contact form are aligned in a single row of three columns using Bootstrap’s grid system?"
 - [ ] Place the supplied code inside the `<body>` tags after the `<main>` section code of your HTML file.
 - [ ] Open the `index.html` file in your browser to see the results.
 - [ ] Ask AI for help if you need to tweak or adjust anything in the navbar.
@@ -139,12 +153,13 @@ Now we are building a responsive layout that displays two animal cards and a con
 
 We will now add a footer section to the webpage, providing consistent styling and information at the bottom of the page using Bootstrap.
 
-- [ ] **Ask AI:**"How do I create a full-width footer using Bootstrap?"
-- [ ] **Ask AI:** "How do I ensure the footer stays at the bottom of the page with following text '© 2024 Animal Shelter. All rights reserved.' included and centered?"
-- [ ] **Ask AI:**"How do I style the footer with a dark background, white text, and padding using Bootstrap?"
+**Ask AI:**
+
+- [ ] "How do I create a full-width footer using Bootstrap?"
+- [ ] "How do I ensure the footer stays at the bottom of the page with following text '© 2024 Animal Shelter. All rights reserved.' included and centered?"
+- [ ] "How do I style the footer with a dark background, white text, and padding using Bootstrap?"
 - [ ] Place the supplied footer code inside the <body> tags, at the bottom of your HTML file, before the closing `</body>` tag.
 - [ ] Open the `index.html` file in your browser to see the results.
-- [ ] Ask AI for help if you need to tweak or adjust anything in the navbar.
 
 **Explanation:**
 
