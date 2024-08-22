@@ -150,7 +150,6 @@ We will now add a footer section to the webpage, providing consistent styling an
 - [ ] **Ask AI:**"How do I style the footer with a dark background, white text, and padding using Bootstrap?"
 - [ ] Place the supplied footer code inside the <body> tags, at the bottom of your HTML file, before the closing `</body>` tag.
 - [ ] Open the `index.html` file in your browser to see the results.
-- [ ] Ask AI for help if you need to tweak or adjust anything in the navbar.
 
 **Explanation:**
 
