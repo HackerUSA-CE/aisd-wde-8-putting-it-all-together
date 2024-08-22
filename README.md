@@ -1,4 +1,5 @@
 # Putting it all Together 
+Just an example of what your final project may look like
 ![Animal shelter page with a navbar, cat and dog cards with photos, a contact form, and a footer for easy navigation and interaction](./assets/images/example.png)
 ##
 
