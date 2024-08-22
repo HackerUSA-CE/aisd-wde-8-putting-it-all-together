@@ -78,8 +78,8 @@ Now we will add a CDN link to include Bootstrap for styling our web page.
 
 The objective is to adjust the <body> tag to apply a light background and dark text across the entire page using Bootstrap classes.
 
-- [ ] **Ask AI:**"What changes should I make to the `<body>` tag to apply a light background with dark text to the entire page?"
-- [ ] Replace the supplied code inside the `index.html` file.
+- [ ] **Ask AI:**"What changes should I make to the `<body>` tag to apply a light background with dark text to the entire page using Bootstrap?"
+- [ ] Replace the existing code in the `index.html` file with the updated version.
 
 **Explanation:**
 
