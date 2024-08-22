@@ -24,8 +24,8 @@ animalShelter/
    
    - [ ] Also, in the `animalShelter` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-## 2. **Start with a HTML Boilerplate**
-Now that your files are set up, begin by adding the basic HTML boilerplate. 
+## 2. **Start with an HTML Boilerplate**
+Now that your files are set up, begin by adding the basic HTML boilerplate.
 We will also include the Bootstrap CDN links to streamline styling and layout.
 
   - [ ] Ask AI to help you prepare an HTML boilerplate. Copy and paste that code into your `index.html` file.
