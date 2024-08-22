@@ -95,10 +95,10 @@ The objective is to adjust the <body> tag to apply a light background and dark t
 
 Let's create a responsive Bootstrap navbar with a brand on the left and navigation links on the right, all styled with a dark theme.
 
-- [ ] **Ask AI:**"With the Bootstrap CDN link already in place, how do I create a responsive navbar that expands on large screens.
+- [ ] **Ask AI:**"How do I create a responsive navbar that expands on large screens.
 - [ ] **Ask AI:**"How do I add the 'Animal Shelter' branding text on the left side of the navbar?"
 - [ ] **Ask AI:**"How do I add the navigation links 'Home,' 'Our Animals,' and 'Contact Us' to the right side of the navbar?"
-- [ ] **Ask AI:**"With the CDN link already in place, how do I style the navbar with a dark background and light text using Bootstrap?"
+- [ ] **Ask AI:**"How do I style the navbar with a dark background and light text using Bootstrap?"
 - [ ] **Ask AI:**"How do I wrap the entire navbar content inside a fluid container with padding on the left and right for consistent spacing?"
 - [ ] Place the supplied navbar code inside the `<body>` tags of your HTML file.
 - [ ] Open the `index.html` file in your browser to see the results.
