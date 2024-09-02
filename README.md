@@ -10,6 +10,8 @@
 
 In this assignment, you will work solo with the help of AI to build an animal shelter webpage using Bootstrap to style it. You will create a navbar, a grid of cards, contact form, and a footer. Use AI to assist with coding, design choices, and troubleshooting as you develop a responsive and accessible webpage with Bootstrap's built-in components.
 
+The following AI prompts are merely suggestions to give you an idea of how you might use AI to assist in creating your website. Feel free to experiment and come up with your own.
+
 ## Expected Project Structure 🏗️
 
 ```plaintext
