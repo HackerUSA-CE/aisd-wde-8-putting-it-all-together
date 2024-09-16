@@ -80,7 +80,7 @@ Now add a CDN link to include Bootstrap for styling your web page.
 
 **Explanation:**
 
-- By adding the CDN link, yoy included Bootstrap's CSS to style our web page with its predefined classes and components.
+- By adding the CDN link, you included Bootstrap's CSS to style our web page with its predefined classes and components.
 
 ## 3. **Adding Styles to the Body**
 
@@ -132,7 +132,7 @@ You are building the main content section of the webpage, focusing on creating a
 
 - You structured the main content section with a centered heading and subheading on a blue background.
 
-## 6. **Animal Cards and Contact Form Grid **
+## 6. **Animal Cards and Contact Form Grid**
 
 Now you are going to build a responsive layout that displays two animal cards and a contact form side by side within a Bootstrap grid.
 
