@@ -8,7 +8,9 @@
 
 ## Description 📄
 
-In this assignment, you will work solo with the help of AI to build an animal shelter webpage using 100% Bootstrap to style it. You'll create a navbar, animal cards, contact form and a footer. Use AI to assist with coding, design choices, and troubleshooting as you develop a responsive and accessible webpage with Bootstrap's built-in components.
+In this assignment, you will work with the help of AI to build an animal shelter webpage using Bootstrap to style it. You will create a navbar, a grid of cards, contact form, and a footer. Use AI to assist with coding, design choices, and troubleshooting as you develop a responsive and accessible webpage with Bootstrap's built-in components.
+
+The following AI prompts are merely suggestions to give you an idea of how you might use AI to assist in creating your website. Feel free to experiment and come up with your own.
 
 ## Expected Project Structure 🏗️
 
@@ -58,7 +60,7 @@ _The boilerplate code should look something like this:_
 
 ## 3. **Access Bootstrap Styling**
 
-Now we will add a CDN link to include Bootstrap for styling our web page.
+Now add a CDN link to include Bootstrap for styling your web page.
 
 - [ ] Copy and paste the link below inside the `<head>` of your HTML boilerplate, right after the title.
 
@@ -78,7 +80,7 @@ Now we will add a CDN link to include Bootstrap for styling our web page.
 
 **Explanation:**
 
-- By adding the CDN link, we included Bootstrap's CSS to style our web page with its predefined classes and components.
+- By adding the CDN link, you included Bootstrap's CSS to style our web page with its predefined classes and components.
 
 ## 3. **Adding Styles to the Body**
 
@@ -91,7 +93,7 @@ The objective is to adjust the <body> tag to apply a light background and dark t
 
 **Explanation:**
 
-- We applied Bootstrap classes to the `<body>` tag to ensure the entire page has a light background and dark text, creating a clean and readable layout.
+- You applied Bootstrap classes to the `<body>` tag to ensure the entire page has a light background and dark text, creating a clean and readable layout.
 
 ## 4. **Building out the NavBar**
 
@@ -110,11 +112,11 @@ Let's create a responsive Bootstrap navbar with a brand on the left and navigati
 
 **Explanation:**
 
-- We created a responsive Bootstrap navbar styled with a dark theme and placed it inside the `<body>` of the HTML document.
+- You created a responsive Bootstrap navbar styled with a dark theme and placed it inside the `<body>` of the HTML document.
 
 ## 5. **Building out the Main Section**
 
-We are building the main content section of the webpage, focusing on creating a visually appealing and responsive layout using Bootstrap.
+You are building the main content section of the webpage, focusing on creating a visually appealing and responsive layout using Bootstrap.
 
 **Ask AI:**
 
@@ -128,11 +130,11 @@ We are building the main content section of the webpage, focusing on creating a 
 
 **Explanation:**
 
-- We structured the main content section with a centered heading and subheading on a blue background.
+- You structured the main content section with a centered heading and subheading on a blue background.
 
-## 6. **Animal Cards and Contact Form Grid **
+## 6. **Animal Cards and Contact Form Grid**
 
-Now we are building a responsive layout that displays two animal cards and a contact form side by side within a Bootstrap grid.
+Now you are going to build a responsive layout that displays two animal cards and a contact form side by side within a Bootstrap grid.
 
 **Ask AI:**
 
@@ -147,11 +149,11 @@ Now we are building a responsive layout that displays two animal cards and a con
 
 **Explanation:**
 
-- We are guiding AI to create a Bootstrap grid row with three equal columns after the main section ensuring they are aligned in a single row, all styled and positioned correctly.
+- You are guiding AI to create a Bootstrap grid row with three equal columns after the main section ensuring they are aligned in a single row, all styled and positioned correctly.
 
 ## 7. **The Footer**
 
-We will now add a footer section to the webpage, providing consistent styling and information at the bottom of the page using Bootstrap.
+Now add a footer section to the webpage, providing consistent styling and information at the bottom of the page using Bootstrap.
 
 **Ask AI:**
 
@@ -163,7 +165,7 @@ We will now add a footer section to the webpage, providing consistent styling an
 
 **Explanation:**
 
-- We are adding a full-width footer to the webpage, ensuring it's centered at the bottom with consistent styling using Bootstrap.
+- You are adding a full-width footer to the webpage, ensuring it's centered at the bottom with consistent styling using Bootstrap.
 
 # Conclusion 📄
 
